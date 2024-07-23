@@ -1,0 +1,160 @@
+.footer-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 7 20px;
+  }
+  
+  .footer-content div {
+    flex: 1;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    gap:7px;
+
+  }
+  
+  .get-in-touch p {
+    margin-right: 20px;
+    font-size: 0.8em;
+    
+  }
+  
+  .footer-text {
+    width: 100%;
+    height: auto;
+    font-size: 0.8em;
+  }
+  .scholarship-for-you-container {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    left: 10px; /* Adjust left position as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .scholarship-icon {
+    font-size: 54px; /* Adjust the size as needed */
+  }
+  
+  .scholarship-text {
+    margin-left: 5px; /* Add some spacing between the icon and text */
+    font-size: 20px; /* Adjust the size as needed */
+  }
+  
+  .footer-container {
+    position: relative;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .footer-container {
+      width: 100%;
+      height: auto;
+    }
+    
+    footer {
+      background-color:red;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 7 20px;
+    }
+    
+    .footer-content div {
+      flex: 1;
+    }
+    
+    .footer-content ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .footer-content a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .get-in-touch {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      gap:7px;
+  
+    }
+    
+    .get-in-touch p {
+      margin-right: 20px;
+      font-size: 0.8em;
+      
+    }
+    
+    .footer-text {
+      width: 90%;
+      height: auto;
+      font-size: 0.8em;
+      
+    }
+    .scholarship-for-you-container {
+      position: absolute;
+      top: 1px; /* Adjust top position as needed */
+      left: 1px; /* Adjust left position as needed */
+      display: flex;
+      align-items: center;
+    }
+    
+    .scholarship-icon {
+      font-size: 34px; /* Adjust the size as needed */
+    }
+    
+    .scholarship-text {
+      margin-left: 5px; /* Add some spacing between the icon and text */
+      font-size: 20px; /* Adjust the size as needed */
+    }
+    
+    .footer-container {
+      position: relative;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+  
+ }

@@ -1,0 +1,23 @@
+.homepage-slider img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+ margin-top: 10px;
+ 
+ 
+}
+/* For screens smaller than 576px (mobile) */
+@media only screen and (max-width: 576px) {
+  p {
+    font-size: 14px; /* Decrease font size */
+    margin-top: 15px; /* Adjust margin for smaller screens */
+    
+  }
+}
+
+/* For screens larger than 576px (tablet, desktop) */
+@media only screen and (min-width: 576px) {
+  p {
+    font-size: 36px; /* Default font size for larger screens */
+    margin-top: -10px; /* Default margin for larger screens */
+  }
+}

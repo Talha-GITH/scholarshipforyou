@@ -1,0 +1,113 @@
+.container {
+    margin: 20px auto; /* Center the container horizontally */
+    max-width: 1200px; /* Set maximum width for the container */
+    
+}
+
+.filters-container {
+    margin-bottom: 20px; /* Add margin at the bottom of the filters */
+    padding: 20px; /* Add padding to create a responsive box */
+    border-radius: 12px; /* Add border radius for a rounded appearance */
+    background-color: #f9f9f9; /* Add a light background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.15); 
+    /* Enhanced neumorphism shadow */
+    
+    
+}
+
+.filters-container label,
+.filters-container select,
+.filters-container button {
+    margin-bottom: 10px; /* Add margin between elements */
+    font-size: 22px; /* Decrease font size */
+    
+    
+}
+
+
+.scholarship-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Default grid layout */
+    gap: 20px; /* Gap between grid items */
+    margin-right: 10px;
+    
+}
+
+.scholarship-item {
+    padding: 2px; /* Add padding to scholarship items */
+    border-radius: 12px; /* Add border radius for a rounded appearance */
+    background-color: white; /* Add a light background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 0 20px black, 0 0 40px black ;
+    /* Enhanced neumorphism shadow */
+}
+
+.scholarship-item img {
+    width: 100%; /* Set width to 100% for horizontal fit */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.scholarship-item h2 {
+    font-size: 12px; /* Decrease font size */
+    
+}
+
+.scholarship-item:nth-child(even) {
+    background-color: red; /* Add a different light background color for even items */
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 576px) {
+    .scholarship-list {
+        grid-template-columns: 1fr; /* Display scholarship items in a single column */
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); /* Default grid layout */
+        gap: 20px; /* Gap between grid items */
+       
+        margin-left: 20px;
+        
+        max-width: 340px; /* Set maximum width for the container */
+
+
+    }
+    .scholarship-item h2 {
+        font-size: 12px; /* Decrease font size */
+        
+    }
+    
+
+    .scholarship-item {
+        width: calc(100% - 40px); /* Set width to 100% minus padding */
+        margin: 0 auto; /* Center the items horizontally */
+        
+    }
+}
+.details p {
+    font-size: 10px; /* Decrease font size for details */
+}
+
+
+@media only screen and (max-width: 576px) {
+.filters-container label,
+    .filters-container select,
+    .filters-container button {
+        display: table-row;
+        margin-bottom: 10px;
+        font-size: 12px; /* Decrease font size */
+
+    }
+}
+.filters-container button {
+    background-color: red; /* Change the background color of the search button */
+    color: #ffffff; /* Change the text color of the search button to white */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Add padding to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+    border-radius: 30px;
+}
+
+/* Add hover effect */
+.filters-container button:hover {
+    background-color: #ff5733; /* Change the background color on hover */
+    
+}

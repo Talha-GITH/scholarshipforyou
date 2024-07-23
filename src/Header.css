@@ -1,0 +1,101 @@
+/* Header.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 1;
+  width: 100%;
+  z-index: 1000;
+  background-color: black; /* Dark background color */
+  box-shadow: 0 0 20px black, 0 0 40px black ;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Adjust as needed */
+  
+}
+
+.nav-link {
+  margin: 0 20px; /* Adjust as needed */
+  text-decoration: none;
+  color: white; /* White color */
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+}
+
+.nav-link:hover {
+  color: #80cbc4; /* Light teal color on hover */
+  box-shadow: 0 0 20px black, 0 0 40px black ;
+}
+
+.navbar-brand {
+  margin: 10px 0; /* Margin to the left */
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+}
+
+.logo-text {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  font-weight: 500;
+  animation: shineText 1.5s infinite;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  border-bottom: none; /* Remove bottom line */
+  text-shadow: 2px 2px 4px black; /* Add shadow to text */
+  background-color: black; /* Dark background color */
+  
+}
+
+.education-icon {
+  font-size: 30px;
+  color: #ffeb3b;
+  font-weight: 500;
+  animation: shineIcon 1.5s infinite;
+  box-shadow: 2px 2px 4px white; /* Add shadow to icon */
+  background-color: b; /* Dark background color */
+}
+
+@keyframes shineIcon {
+  0% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: blanchedalmond;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nav-links {
+    margin-top: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 20px; /* Add left margin on desktop */
+  }
+}
+.showSubscribeModal{
+  align-items: center;
+}

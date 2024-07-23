@@ -1,0 +1,52 @@
+body {
+    background-color: white; /* Set the background color of the body */
+    color: black; /* Set the text color */
+    margin: 0; /* Reset margin */
+  }
+  
+  .scholarship-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .scholarship-item {
+    border: 2px solid black; /* Increase border line width */
+    text-align: center; /* Center all text */
+  }
+  
+  .scholarship-details {
+    padding: 0px;
+    text-align: center; /* Reset text alignment for scholarship details */
+  }
+  
+  .scholarship-details h2 {
+    font-size: 22px; /* Font size for the scholarship name */
+    text-align: center; /* Center the heading */
+  }
+  .scholarship-details h2,
+.scholarship-details p {
+  color: black; /* Set text color to white */
+  font-size: 15px;
+}
+
+  
+  .scholarship-details p {
+    margin: 5px 0; /* Adjust margin for spacing between details */
+    height: 70%;
+  }
+  
+  /* Media query for screens larger than 796px */
+  @media only screen and (min-width: 796px) {
+    .scholarship-list {
+      grid-template-columns: repeat(4, 1fr); /* 3 columns layout */
+    }
+  }
+  
+  @media only screen and (max-width: 796px) {
+    .scholarship-item {
+      width: 97%; /* Reduce container size by 10% */
+    }
+  }
+  
